@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Contact Information</title>
+</head>
+<body class="main">
+
+
+    <div class="container">
+        <form>
+          <br>
+            <h1 style="color: white; text-align: center; font-size: 50px;">Buyer`s Order Form</h1>
+            <br>
+        <div id="name">
+        <h2 class="name">Full Name</h2>
+        <input class="fname" type="text" name="firstname">
+        
+        </div>
+        <h2 class="name">Contact No.</h2>
+        <input class="contactno" type="text" name="contact">
+    
+        <h2 class="name">Email Add</h2>
+        <input class="emailadd" type="text" name="email">
+
+        <h2 class="name">Address</h2>
+        <input class="address" type="text" name="add">
+        
+        <h2 class="name">Occupation</h2>
+        <input class="address" type="text" name="address">
+        <div class="btn">
+        <center><a href="index.html"><input type="button" onclick="reset()" value="CANCEL"/>
+        <input type="button" onclick="ok()" value="SUBMIT"/></a></center>
+        </div> 
+        </form>
+        </div>
+
+    </div>
+   
+        </body>
+        <script>
+            function ok(){
+              alert("Thank you for purchasing. Your order now is being processed!!");
+            }
+          </script>
+</body>
+
+
+</html>
