@@ -1,0 +1,272 @@
+body{
+  margin: 0;
+}
+h5 i{
+  font-size: 25px;
+}
+.sign{
+  height: 30px;
+  margin-right: 4px;
+}
+.indexbg{
+  background:url(indexbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indexg{
+  height: 500px;
+  width: 1350px;
+}
+.newbg{
+  background:url(newbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.newcarbg{
+  background-size: 150px;
+  margin-left:550px;
+  margin-bottom: 50px;
+}
+.usedcarbg{
+    background-size: 150px;
+  margin-left:750px;
+  margin-bottom: 50px;
+}
+
+.container{
+background-color: rgba(255, 255, 255, .15);
+backdrop-filter: blur(5px);
+}
+
+
+
+.page-title{
+  color: antiquewhite;
+  padding: 50px;
+  font-variant: small-caps;
+  font-size: 59px;
+  letter-spacing: 20px;
+}
+
+  
+.menu{
+  
+  background: content-box;
+  text-align: right;
+  margin-bottom: -29px;
+}
+
+.menu-ul{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.menu-ul li{
+  font-family: inherit;
+  font-size: 30px;
+  list-style: none;
+  display: inline-block;
+  padding: 12px 12px 12px 12px;
+  
+}
+.a-menu, .a-links{
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.menu-ul li:hover{
+  background: lightpink;
+  transform: scale(1.1);
+  
+}
+
+i{
+  font-size: 10px;
+  margin: 0 40px 0 0;
+  
+}
+
+.container, .deals-container{
+  text-align: center; 
+
+}
+
+
+.categories, .items{
+  width: max-content;
+  margin: 25px;
+  border: 10px solid silver;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-grid;
+}
+.categories:hover,.items:hover{
+  box-shadow: 0 0 10px 3px #  ;
+}
+.items{
+  background-color: darkgray;
+}
+
+.categories:hover,.item:hover{
+  box-shadow: 0 0 10px 3px lightblue;
+}
+.item{
+  background-color: darkgray;
+}
+.item-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 0 0 50px 50px;
+  padding: 10px;
+}
+image-title{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  
+}
+a{
+  text-decoration: none;
+}
+
+.deal{
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 20px;
+  max-width: 20%;
+  background: linear-gradient(120deg,#16817a 20%, #cee397 50%, #16817a 80%);
+}
+
+.images{
+  display: inline-block;
+}
+
+.item-image-size{
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 0 0 50px 50px;
+}
+
+.decoration{
+  margin: 20px;
+  min-height: 100px;
+  text-align: center;
+  display: inline-block;
+}
+.item-select{
+  margin: 10px 0 0 0;
+}
+
+.buynow-btn{
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.buynow-btn:hover{
+  border: 1px solid ;
+  box-shadow: 0 0 10px 5px lightgray inset;
+  
+}
+
+input{
+  border: 2px solid #64cfc3;
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-top: 10px;
+  color: white;
+  font-variant: small-caps;
+  font-family: fantasy;
+  letter-spacing: 5px;
+}
+p{
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.form{
+  width:800PX;
+  background: rgba(0,0,0,0.5);
+  margin: auto;
+  padding:10px 0px 10px 0px;
+  text-align:center;
+  border-radius:15px;
+  color: #cbd3fa;
+  }
+  .main{
+    
+  background:url(contactbg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  width:500px;
+  margin-left:750px;
+  margin-top: 100px;
+  }
+  form{
+  padding:20px;
+  }
+  .name{
+  margin-top:30px;
+  width:125px;
+  color: cadetblue;
+  font-size:18px;
+  font-weight:700;
+  font-family: -webkit-pictograph;
+  }
+  .fname{
+      position:relative;
+      top:-4px;
+      line-height:40px;
+      width:350px;
+      border-radius:1px;
+      padding:0 22px;
+      font-size:14px;
+      color:initial;
+      font-family: inherit;
+  }
+  
+  .contactno{
+  position:relative;
+  top:-4px;
+  line-height:40px;
+  width:350px;
+  border-radius:1px;
+  padding:0 22px;
+  font-size:14px;
+  color:initial;
+  font-family: Arial;
+  }
+
+ 
+  .emailadd{
+      position:relative;
+      top:-4px;
+      line-height:40px;
+      width:350px;
+      border-radius:1px;
+      padding:0 22px;
+      font-size:14px;
+      color:initial;
+      height: 40px;
+      font-family: Arial;
+  }
+
+  .address{
+      position:relative;
+      top:-4px;
+      line-height:40px;
+      width:350px;
+      border-radius:1px;
+      padding:0 22px;
+      font-size:14px;
+      color:initial;
+      font-family: Arial;
+  }
